@@ -1,0 +1,13 @@
+logging:
+  pattern:
+    dateformat: MM-dd HH:mm:ss:SSS
+spring:
+  rabbitmq:
+    host: 192.168.110.128
+    port: 5672
+    username: yan
+    password: 112244
+    virtual-host: /
+    listener:
+      simple:
+        prefetch: 1
