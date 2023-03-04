@@ -10,4 +10,5 @@ public class UserService {
         System.out.println("hello world");
     }
     public void fix(){}
+    public void set(){}
 }
